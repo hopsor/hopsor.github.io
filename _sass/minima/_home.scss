@@ -1,0 +1,13 @@
+.home{
+  padding-top: 75px;
+
+  .main{
+    text-align: center;
+
+    .avatar{
+      width: 150px;
+      border-radius: 75px;
+      margin-bottom: $spacing-unit / 2;
+    }
+  }
+}

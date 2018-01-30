@@ -197,8 +197,8 @@ pre {
  */
 
 .svg-icon {
-    width: 16px;
-    height: 16px;
+    width: 32px;
+    height: 32px;
     display: inline-block;
     fill: #{$grey-color};
     padding-right: 5px;
@@ -206,6 +206,13 @@ pre {
 }
 
 .social-media-list {
+  margin-left: 0px;
+  font-size: 32px;
+
+  li{
+    display: inline;
+  }
+
   li + li {
     padding-top: 5px;
   }
