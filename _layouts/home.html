@@ -3,47 +3,14 @@ layout: default
 ---
 
 <div class="home">
-  <div class="main">
+  <div class="hero">
     <img class="avatar" src="{{ "/assets/avatar.jpg" | relative_url }}" />
     <h1>Víctor Viruete</h1>
     <h2>Full Stack Developer</h2>
     {% include social.html %}
   </div>
 
-  <div class="about">
-    <h3>About</h3>
-
-    <p>Hi, my name is Víctor and I'm a web developer.</p>
-
-    <p>I started my first website <a href="http://versosperfectos.com">VersosPerfectos</a>
-    on 2006 which eventually became the most complete hip-hop database about spanish scene.</p>
-
-    <p>As many developers I started doing PHP and later moved on to Ruby On Rails
-    where I still feel comfortable. The past two years I've found the joy in Elixir
-    and Phoenix Framework.</p>
-
-    <p>React, Redux and Elm has been the tools I've been using lately when it
-    comes to frontend development.</p>
-  </div>
-
-  <div class="writing">
-    <h3>Writing</h3>
-
-    <p>
-      I write less often that I would like but from time to time I manage
-      to put together a bunch of words about programming related stuff.
-    </p>
-
-    <p>Below you can find a list of all the posts I've written so far:</p>
-
-    <ul>
-      {% for post in site.data.posts %}
-        <li>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
+  <div class="content">
+    {{ content }}
   </div>
 </div>
