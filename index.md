@@ -34,8 +34,9 @@ slack bots to automate things like staging environments or the management of a n
 
 - 2006: Created my first website [VersosPerfectos](http://versosperfectos.com/)
 which became the most complete hip-hop database in Spain.
-- 2013: Became partner and CTO of Diacode where I had the opportunity to work
-and supervise many projects with different technology stacks.
+- 2013: Became partner and CTO of Diacode where I led the engineering efforts
+for a dozen of projects, helping startups from Europe and US to develop and ship
+their products.
 - 2016: Featured on [Elixir Radar Issue 59](https://app.rdstation.com.br/mail/d9e87346-37d6-4b59-aaa9-082ff6c0d3f9).
 
 
