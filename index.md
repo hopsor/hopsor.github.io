@@ -46,9 +46,5 @@ I write less often that I would like but from time to time I manage to put toget
 
 Below you can find a list of posts I've written:
 
- - [Building a simple chat using Phoenix Framework’s Presence and React](https://blog.diacode.com/building-a-simple-chat-using-phoenix-framework-presence-and-react)
- - [We Have Open-Sourced VersosPerfectos](https://blog.diacode.com/we-have-open-sourced-versosperfectos)
- - [Listing OpsWorks instances using a rake task](https://blog.diacode.com/listing-opsworks-instances-using-a-rake-task)
- - [How we improved our newsletter: a love story with Ember.js and Hubot](https://blog.diacode.com/how-we-improved-our-newsletter)
- - [Integración continua con Jenkins: Parte 2](https://blog.diacode.com/integracion-continua-con-jenkins-parte-2-configurar-proyecto-rails-e-integracion-con-bitbucket-y-hipchat)
- - [Integración continua con Jenkins: Parte 1](https://blog.diacode.com/integracion-continua-con-jenkins-parte-1-introduccion-e-instalacion)
+{% for post in site.data.posts %}- [{{ post.title }}]({{ post.url }})
+{% endfor %}
