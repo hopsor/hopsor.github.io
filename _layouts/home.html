@@ -4,10 +4,14 @@ layout: default
 
 <div class="home">
   <div class="hero">
-    <img class="avatar" src="{{ "/assets/avatar.jpg" | relative_url }}" />
-    <h1>Víctor Viruete</h1>
-    <p>Full Stack Developer</p>
-    {% include social.html %}
+    <div class="portrait">
+      <img src="{{ "/assets/me.jpg" | relative_url }}" />
+    </div>
+    <div class="presentation">
+      <h1>Hi, I'm Víctor</h1>
+      <p>I’m an experienced software engineer specializing in Ruby and Elixir, with a strong background in product and platform engineering. I’m passionate about technology and love exploring DIY projects in my free time.</p>
+      {% include social.html %}
+    </div>
   </div>
 
   <div class="content">
