@@ -1,0 +1,6 @@
+- title: Open Hours
+  description: Elixir package aimed to help with time calculations using business hours
+  url: https://github.com/hopsor/open_hours
+- title: Pumarex
+  description: A Movie Theater Management Application built with Phoenix Framework and Elm
+  url: https://github.com/hopsor/pumarex
